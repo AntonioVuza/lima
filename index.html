@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html> <!-- Indetifica a versão 5 do HTML-->
+<html lang="pt-br"> <!-- Declara que este trecho do arquivo
+     representa código HTML-->
+<head> <!-- Declara metainformações sobre a página-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -9,6 +10,7 @@
     <meta name="author" content="AntonioVuza">
     
     <link rel="icon" href="./baixados.jpg" type="image/-png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap"
@@ -16,14 +18,15 @@
 
     <link rel="stylesheet" href="./style.css">
 
-    <script defer src="script.js"></script>
-
+    <script defer src="script.js"></script> <!-- Não é possivel colocar um 
+    código e um arquivo no mesmo script-->
     <title>Meu primeiro HTML</title>
 </head>
 <body>
 
     <header>
-        <h1 style=" font-family: Explora, sans-serif" >Bem-vindo ao site!</h1> 
+        <h1 style=" font-family: Explora, sans-serif" >Sinta-se em casa!</h1> 
+        <h3>Mas lembre que não está.</h3>
     </header>
 
     <main>
@@ -32,6 +35,127 @@
         </p>
         <p id="paragrafo">Cadê a SCHUNK😡😡</p>
         <button id="botao">Clique aqui</button>
+        <hr>
+        <h4>Canção do Exílio</h4>
+        <p></p>
+        <p>
+            Minha terra tem palmeiras,<br>
+            Onde canta o Sabiá;<br>
+            As aves que aqui gorjeiam,<br>
+            Não gorjeiam como lá.<br>
+        </p>
+        <p>
+            Nosso céu tem mais estrelas,<br>
+            Nossas várzeas tem mais flores,<br>
+            Nossos bosques tem mais vida,<br>
+            Nossa vida mais amores.<br>
+        </p>
+        <p>
+            Em cismar, sozinho, à noite,<br>
+            Mais prazer encontro eu lá;<br>
+            Minha terra tem palmeiras<br>
+            Onde canta o Sabiá.<br>
+        </p>
+        <p>
+            Minha terra tem primores<br>
+            Que tais não encontro eu cá;<br>
+            Em cismar - sozinho, à noite -<br>
+            Mais prazer encontro eu lá;<br>
+            Minha terra tem palmeiras<br>
+            Onde canta o Sabiá.<br>
+        </p>
+        <p>
+            Não permita <stong>Deus</strong> que eu morra<br>
+            Sem que eu volte para lá;<br>
+            Sem que desfrute os <mark>primores</mark><br>
+            Que não encontro por cá;<br>
+            Sem qu’inda aviste as <u>palmeiras</u><br>
+            Onde canta o <em>Sabiá</em>.<br>
+        </p>
+
+        <p>Este é um abre chevron &lt;</p>
+        <p>Este é um fecha chevron &gt;</p>
+
+        <h2>Minha Lista de Compras</h2>
+        <ul type="disc"><!--Lista não ordenada, 
+            usada para itens sem ordem específica-->
+            <!--Cada item da lista é definido pela tag <li> -->
+            <li>Maçã</li>
+            <li>Café</li>
+            <li>Chocolate</li>
+            <li>Ovo</li>
+
+        </ul>
+
+        <ul type="disc">
+            <li>Item com marcador padrão (disc) </li>
+        </ul>
+
+        <ul type="circle">
+            <li>Item com marcador de círculoi vazio (circle) </li>
+        </ul>
+
+        <ul type="square">
+            <li>Item com marcador de quadrado cheio (square) </li>
+        </ul>
+
+        <h2 style="color: rgb(54, 61, 64);"
+        >Passos para Assistir Ismael</h2>
+        <ol><!-- Lista ordenada com os passos
+             simples para ligar um computador-->
+            <!-- Cada item é definido pela tag <li> -->
+            <li>Verificar se o cabo de alimentação
+                 está conectado na tomada.</li>
+            <li>Certificar-se de que o cabo de 
+                alimentação está conectado no computador.</li>
+            <li>Pressionar o botão de ligar.</li>
+            <li>Aguardar até que a tela de inicialização apareça.</li>
+        </ol>
+
+        <ol start="5" type="1"> <!-- A reversão da lista é
+             feita com a tag (reversed) !-->
+            <li >Agora abra o chrome.</li>
+            <li>Entre neste site.</li>
+            <li>Clique no link abaixo e escolha o video de
+                 sua preferencia.</li>
+        </ol>
+
+       <p>
+            <a  href="https://www.youtube.com/@Ismeiow2" 
+                target="_blank" 
+                title="Youtube Ismael"
+                rel="nofollow noopener"
+            >
+                Canal Ismael
+            </a>
+        </p> 
+
+        <p>
+            <a href="https://us-prod.asyncgw.teams.microsoft.com/v1/839bac32-4833-4bb9-9b8c-48f03a862724/objects/0-eus-d2-f0ec22e0be8bd8ee4341b17411e6e226/views/imgpsh_fullsize">
+            <img 
+                src="./Ismael.jpg"
+                height="270"
+                alt="Ismael montado a anos atrás."
+                title="Ismael montado a anos atrás."
+            >
+            </a>
+        </p>
+
+        <table border="2" cellspacing="1" cellpading="10" width="50%" 
+        style="color:rgb(176, 71, 118)" > <!--Elemento tabela--> 
+        <!-- Para deixar a tabela no centro basta usar a tag (align="center")-->
+            <tr> <!-- Elemento linha de tabela de tabela (table row)-->
+                <th>Nome</th> <!-- Nome das Colunas-->
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+            <tr>
+                <td>Ismael</td>
+                <td>24 anos </td>
+                <td>São Paulo</td>
+            </tr>
+        </table>
+
     </main>
 
     <h1></h1>

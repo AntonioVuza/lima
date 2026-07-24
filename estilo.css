@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(245, 245, 187);
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+h1{
+    font-size: 24px;
+    color:rgb(99, 96, 48)
+}
+
+button{
+    padding: 10px 20px;
+    background-color: burlywood;
+    color:beige;
+}
+#nome{
+    background-color:beige
+}
+#email{
+    background-color:beige
+}
+#telefone{
+    background-color:beige
+}
+#idade{
+    background-color:beige
+}
+#data-nascimento{
+    background-color:beige
+}#website{
+    background-color:beige
+}
+#comentarios{
+    background-color:beige
+}
