@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de CSS</title>
+    <link
+        rel="preload" 
+        href="./estilo.css" 
+        as="style" 
+        onload="this.rel='stylesheet'"
+    >
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: rgba(27, 79, 27, 0.341);
+            margin: 0;
+            padding: 20px;
+        }
+        
+
+        h1{
+            color: rgb(12, 45, 12);
+            font-size: 28px;
+        }
+
+        p{
+            color: rgb(12, 45, 12);
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+     <h1>Bem vindo ao Estilo Interno</h1>
+    <p>Este parágrafo utiliza estilos definidos na tag &lt;style&gt;.</p>
+    <button id="botao">Clique aqui</button>
+    <img id="imagem" src=
+        "https://i.pinimg.com/736x/46/4f/fb/464ffb76f45b751f204b8bd26ddaca6c.jpg"
+    >
+
+    <div class="conteudo">
+    <p class="lorem">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus necessitatibus sint magnam corrupti! Quod, accusamus similique quam quis aperiam architecto!
+    </p>
+    <p class="lorem" id="ultimoparagrafo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vel exercitationem aliquid fugit consectetur dolores magni quod, vero, praesentium in reprehenderit omnis ipsum. Sapiente labore molestiae dignissimos ad voluptatum?
+    </p>
+    </div>
+
+    <!--Estilização em linha-->
+    <p style="color: rgb(18, 49, 18); font-size: 20px;">
+        Este texto está estilizado em linha.
+    </p>
+</body>
+</html>
