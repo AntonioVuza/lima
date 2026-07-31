@@ -1,3 +1,4 @@
+/*O professor disse que temos que fazer um site mais elegante e não vermelho, acho que ele não gostou da cor do meu site*/
 * {
     margin: 0; /*Remove as margens  padrão de todos os elementos*/
     padding: 0; /*Remove o preenchimento padrão de todos os elementos*/
@@ -7,7 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(217, 33, 33, 0.471);
-    display: flex; /*Utiliza o modelo leiaute flexbox paea o corpo do documento*/
+    display: flex; /*Utiliza o modelo leiaute flexbox para o corpo do documento*/
     justify-content: center; /*Centraliza os elementos horizontalmente*/
     align-items: center; /*Centraliza os elementos verticalmente*/ 
     height: 100vh; /*Define a altura do corpo como 100% da altura da janela de visualização(viewport)*/
@@ -27,12 +28,39 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0,0,0.1);
-    transition: tranform 0.3s ease, box-shadow 0.3s ease; /*Aplica ma transição 
-    suave para o efeito de transformação de borda*/
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /*Aplica ma transição 
+    suave para o efeito de transformação de sombra*/
 }
 
 .card:hover{
     transform: translateY(-10px); /*Movimenta o cartão para cima em 10px
     ao passar o mouse sobre, ele criando o efeito de elevação*/
-    box-shadow: 0px 6px 20px rgba(0,0,0, 0.15); /*Aumenta a intensidade da sombra ao passar o mouse pelo cartão*/
+    box-shadow: 0px 6px 20px rgba(0,0,0, 0.7); /*Aumenta a intensidade da sombra ao passar o mouse pelo cartão*/
+}
+
+
+.card h2{
+    color: #250606; /*Define a cor do título cartão como vermelho escuro*/
+    margin-bottom: 10px; /*adiciona uma margem inferior de 10px ao título*/
+}
+
+.card p{
+    color: black; /*Define a cor do texto dentro do cartão como preto*/    
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 102, 102);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer; /*O cursor do mouse vira uma "mãozinha com o dedo indicador esticado (windows)*/
+    transition: background-color 0.3s ease; /*Aplica uma transição suave de 0.3s a cor de fundo do botão*/
+}
+
+.btn:hover{
+    background-color: rgb(206, 71, 71);
 }
