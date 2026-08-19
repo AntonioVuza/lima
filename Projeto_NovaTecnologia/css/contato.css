@@ -1,4 +1,4 @@
-.contact-form{
+.contact-form {
     max-width: 500px;
     margin: auto;
     padding: 20px;
@@ -6,22 +6,35 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0, 0.1);
 }
-.form-group{
+.form-group {
     margin-bottom: 15px;
 }
-label{
+label {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
 }
-input, select, textarea{
+input, select, textarea {
     width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-textarea{
+textarea {
     height: 100px;
     resize: vertical;
 }
-/*Inicio da estilização do site*/
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background: #005a8d;
+    color:white;
+    border-top: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-submit:hover {
+    background: #3c80c9;
+}

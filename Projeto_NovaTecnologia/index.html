@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Tecnologia Informática</title>
-    <link href="https://fonts.gloogleapis.com/css2?family=poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/menu.js"></script>
     <script defer src="js/carousel.js"></script>
@@ -15,13 +15,13 @@
     <header>
         <nav aria-label="Menu de Navegação principal"> 
             <div class="logo">
-                <img src="images/logo.png" alt="Logo da empresa Nova Tecnologia Informática">
+                <img src="imagens/logo.png" alt="Logo da empresa Nova Tecnologia Informática">
             </div>
             <div class="nome">
                 <h1>Nova Tecnologia Informática</h1>
             </div>
-            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">&#8801</button>
-            <ul id="menu" class="menu" role="navigation" arial-labelledby="menu-toggle">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">&#8801;</button>
+            <ul id="menu" class="menu" role="navigation" aria-labelledby="menu-toggle">
                 <li><a href="index.html" tabindex="0">Início</a></li>
                 <li><a href="sobre.html" tabindex="0">Sobre</a></li>
                 <li><a href="servicos.html" tabindex="0">Serviços</a></li>
@@ -33,27 +33,27 @@
     <section class="carousel" aria-labelledby="carousel-heading">
         <div class="carousel-container">
             <article class="carousel-item">
-                <img src="images/imagem1.jpg" alt="Consultoria em TI">
+                <img src="imagens/consultoria.jpg" alt="Consultoria em TI">
             </article>            
             <article class="carousel-item">
-                <img src="images/imagem2.jpg" alt="Desenvolvimento de Sistemas">
+                <img src="imagens/desenvolvimento.jpg" alt="Desenvolvimento de Sistemas">
             </article>
             <article class="carousel-item">
-                <img src="images/imagem3.jpg" alt="Infraestrutura de TI">
+                <img src="imagens/infraestrutura.jpg" alt="Infraestrutura de TI">
             </article>            
             <article class="carousel-item">
-                <img src="images/imagem4.jpg" alt="Suporte Técnico">
+                <img src="imagens/suporte.jpg" alt="Suporte Técnico">
             </article>
         </div>
-        <button class="carousel-btn prev" arial-label="Imagem Anterior" tabindex="0">&lt;</button>
-        <button class="carousel-btn prev" arial-label="Próxima Anterior" tabindex="0">&gt;</button>
+        <button class="carousel-btn prev" aria-label="Imagem Anterior" tabindex="0">&lt;</button>
+        <button class="carousel-btn next" aria-label="Próxima Anterior" tabindex="0">&gt;</button>
 
     </section>
     <!--Serviços-->
     <section class="services">
         <div class="container">
             <h2>Nossos Serviços</h2>
-            <div class="service-list">
+            <div class="services-list">
                 <article class="service-item">
                     <h3>Desenvolvimento de Software</h3>
                     <p>Soluções personalizadas para atender as suas necessidades.</p>

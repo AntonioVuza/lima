@@ -46,6 +46,10 @@ header nav ul li a {
 .logo {
     display: flex;
 }
+.logo img {
+    width: 20%;
+    border-radius: 100%
+}
 .nome {
     width: 70%;
     margin-left: 2px;
@@ -79,7 +83,7 @@ header nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .carousel-item img {
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     margin-right: 1px;
     border-radius: 8px;
@@ -223,7 +227,6 @@ carousel-item img{
     .menu-toggle{
         display: block;
     }
-}
 /*Esconde o menu por padrão e exibe quando ativado*/
 .menu{
     display: none;
@@ -237,4 +240,5 @@ carousel-item img{
 }
 .menu li{
     padding: 10px;
+}
 }
