@@ -83,7 +83,7 @@ header nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .carousel-item img {
-    max-width: 30%;
+    max-width: 45%;
     height: auto;
     margin-right: 1px;
     border-radius: 8px;
@@ -152,17 +152,17 @@ footer {
     text-align: center;
     padding: 2rem;
 }
-.content{
+.content {
     width: 100%;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
 }
-.content h2{
+.content h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
-.content-list{
+.content-list {
     display: flex;
     gap: 2rem;
     justify-content: center;
@@ -171,15 +171,19 @@ footer {
 .content-item {
     background-color: #fff;
     padding: 0.5rem;
-    box-shadow:  0 2px 5px rgba(230, 222, 222, 0.1);
+    box-shadow:  5 2px 5px rgba(230, 222, 222, 0.1);
     flex: 1 1 300px;
+    border-radius: 10px;
+}
+.content-item img {
+    border-radius: 7px;
 }
 .content-item ul {
     list-style: none;
     padding: 0;
     margin-top: 0;
 }
-.content-item ul li{
+.content-item ul li {
     background-color: #005a8d;
     color: white;
     padding: 10px 13px;
@@ -202,14 +206,14 @@ img{
     max-width: 100%;
 }
 /*Responsividade para telas menores*/
-@media (max-width: 768px){
+@media (max-width: 768px) {
     /*No carrosel, empilhar imagem e texto*/
-    .carousel-item{
+    .carousel-item {
         flex-direction: column;
         text-align: center;
     }
 
-carousel-item img{
+carousel-item img {
     margin-bottom: 20px;
     max-width: 90%;
     }
@@ -223,22 +227,22 @@ carousel-item img{
     color: white;
     cursor: pointer;
 }
-@media (max-width: 769px){
-    .menu-toggle{
+@media (max-width: 769px) {
+    .menu-toggle {
         display: block;
     }
 /*Esconde o menu por padrão e exibe quando ativado*/
-.menu{
+.menu {
     display: none;
     flex-direction: column;
     background: #005a8d;
     width: 100%;
     text-align: center;
 }
-.menu.show{
+.menu.show {
     display: flex;
 }
-.menu li{
+.menu li {
     padding: 10px;
 }
 }
